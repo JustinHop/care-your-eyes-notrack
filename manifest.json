@@ -14,10 +14,8 @@
       "matches": [ "*://*/*" ],
       "run_at": "document_start"
    } ],
-   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
    "default_locale": "en",
    "description": "__MSG_extDescription__",
-   "differential_fingerprint": "1.98090af2fb5b32f9732044fe4786ab04a47c733f568ae3a76422c106e98b4304",
    "icons": {
       "128": "images/glasses128.png",
       "16": "images/glasses16.png",
@@ -26,8 +24,7 @@
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnBEPffkhA3U5nmTLKzwuKMbhWEXRZj/nb8rTCtkmcHz0oE+vnHEG8AMVhoLybT2DACUu5H3bI45sgiBDDIYMcQA+e4g/cR3nTxzJK/UcCjgRn7NQUMn+kOXogswbEJozp7eFtsBd+JVO0JFLgMW971NGzIcY6CiRikrDKndLISJ8WDvLqMPVn9txdolzzDXVgGWxOTO35VWRfy9gClCQnPS9fSsgBYMhOBouRy+QGgPchd3oEZqMcfovKciyzpHBLo/B6B3HqzXh+85xC1YcvLxIjiPmHxbswei7tuw14qMB7fdxczX/KpQcKAYpLRL0U00WBF9ifReOjJM9/kL6IwIDAQAB",
    "manifest_version": 2,
    "name": "__MSG_extName__",
-   "permissions": [ "contextMenus", "storage", "tabs", "http://tjs.sjs.sinajs.cn/", "notifications", "*://*/*" ],
+   "permissions": [ "contextMenus", "storage", "tabs", "notifications", "*://*/*" ],
    "short_name": "__MSG_extName__",
-   "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "7.1.17"
 }

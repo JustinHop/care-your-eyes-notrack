@@ -10,10 +10,6 @@
 		initEnableThisSite();
 		addEvents();
 		initColorTheme();
-		setTimeout(function() {
-			$("#wechatPay").html('<iframe src="http://rewards.tc199.net/rewards.html?v=6"></iframe>');
-		}, 50);
-		app._gaq.push(['_trackEvent', 'options', 'open']);
 	}
 
 	function initRunningMode() {
@@ -104,10 +100,6 @@
 		});
 		$("#shortcuts").click(function() {
 			$('#shortcutsForm').submit();
-		});
-		$("#pay").click(function() {
-			app._gaq.push(['_trackEvent', 'supportMe', 'clicked']);
-			$('#wechatPay').toggle();
 		});
 	}
 
