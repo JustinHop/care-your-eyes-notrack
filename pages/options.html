@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns:wb="http://open.weibo.com/wb">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="../css/base.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/layouts/vertical-list.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/components/button.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/components/img.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/components/line.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/status.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/libs/fold.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/components/flex.css" type="text/css"/>
+		<script src="../js/libs/i18n.js"></script>
+		<script src="../js/libs/jquery.js"></script>
+		<script src="../js/libs/jquery/i18n.js"></script>
+		<script src="../js/libs/jquery/fold.js"></script>
+		<script src="../js/libs/Cacher.js"></script>
+		<script src="../js/libs/url-handler.js"></script>
+		<script src="../js/consts/default-settings.js"></script>
+		<script src="../js/extension/popup/switch.js"></script>
+		<script src="../js/extension/popup/options.js"></script>
+		<style>
+			body {
+				background-color: #FeFfFf
+			}
+		</style>		
+
+	</head>
+	<body>
+		<div class="vertical-list left" style="width:{OptionsPageWidth};" i18n="style: OptionsPageWidth">
+			<div class="item cell-button center" id="switch">
+				<span class="open bold" i18n="text: Enabled"></span>
+				<span class="close bold" i18n="text: Disabled"></span>
+			</div>
+			<div class="separator"></div>
+			<div class="item avg-cols left">
+				<span class="" i18n="title: DescBlacklistMode">
+					<input id="blacklistMode" type="radio" name="runningMode" value="blacklistMode"/>
+					<label i18n="text: BlacklistMode" for="blacklistMode">
+					</label>
+				</span>
+				<span class=""i18n="title: DescWhitelistMode">
+					<input id="whitelistMode" type="radio" name="runningMode" value="whitelistMode"/>
+					<label i18n="text: WhitelistMode" for="whitelistMode">
+					</label>
+				</span>
+			</div>
+			<div class="separator"></div>
+			<div class="item">
+				<span id="blacklistSwitch">
+					<input id="disableThisSite" type="checkbox" value=""/>
+					<label i18n="text: DisableThisSite" for="disableThisSite"/>		
+				</span>
+				<span id="whitelistSwitch" style="display: none">
+					<input id="enableThisSite" type="checkbox" value=""/>
+					<label i18n="text: EnableThisSite" for="enableThisSite"></label>	
+				</span>
+			</div>
+			<div class="separator-chapter"></div>
+			<div class="item">
+				<span class="" i18n="title: AutoSwitchDesc">
+					<input id="autoSwitch" type="radio" name="mode" value="autoSwitch"/>
+					<label i18n="text: AutoSwitch" for="autoSwitch">
+					</label>
+				</span>
+				<span class="green">
+					<input id="legacyMode" type="radio" name="mode" value="legacyMode"/>
+					<label i18n="text: LegacyMode" for="legacyMode">
+					</label>
+					<img src="../images/fold.png" id="colorThemeFoldImg" 
+						 style="display:inline-block;height: 16px;width:16px; cursor: pointer;"></img>
+				</span>
+				<span class="">
+					<input id="nightMode" type="radio" name="mode" value="nightMode"/>
+					<label i18n="text: NightMode" for="nightMode">
+					</label>
+				</span>
+			</div>
+			<div id="colorThemes" >
+				<div class="separator"></div>
+				<div class="item avg-cols">
+					<div>
+						<span i18n="text: CurColorTheme" class="green"></span>
+					</div>
+					<div>
+						<label id="curColorTheme" style="width:90px;display: inline-block"></label>
+					</div>
+				</div>
+				<div class="separator"></div>
+				<div class="item avg-cols">
+					<div style="cursor: pointer" name="colorTheme">
+						<label for="colorTheme1" style="width:90px;display: inline-block"></label>
+						<a id="colorTheme1" theme="1"class="blue" href="#" i18n="text: Apply"></a>
+					</div>
+					<div style="cursor: pointer" name="colorTheme">
+						<label for="colorTheme2" style="width:90px;display: inline-block"></label>
+						<a id="colorTheme2" theme="2"class="blue" href="#" i18n="text: Apply"></a>
+					</div>
+				</div>
+				<div class="item avg-cols">
+					<div style="cursor: pointer" name="colorTheme">
+						<label for="colorTheme3" style="width:90px;display: inline-block"></label>
+						<a id="colorTheme3" theme="3"class="blue" href="#" i18n="text: Apply"></a>
+					</div>
+					<div style="cursor: pointer" name="colorTheme">
+						<label for="colorTheme4" style="width:90px;display: inline-block"></label>
+						<a id="colorTheme4" theme="4"class="blue" href="#" i18n="text: Apply"></a>
+					</div>
+				</div>
+				<div class="item avg-cols">
+					<div style="cursor: pointer" name="colorTheme">
+						<label for="colorTheme5" style="width:90px;display: inline-block"></label>
+						<a id="colorTheme5" theme="5" class="blue"class="blue" href="#" i18n="text: Apply"></a>
+					</div>
+					<div style="cursor: pointer" name="colorTheme">
+						<label for="colorTheme6" style="width:90px;display: inline-block"></label>
+						<a id="colorTheme6" theme="6"class="blue" href="#" i18n="text: Apply"></a>
+					</div>
+				</div>
+				<div class="separator"></div>
+				<div class="item">
+					<img src="../images/palette.png"/>&nbsp;
+					<a href="palette.html" i18n="text: EditColorTheme"></a>
+				</div>
+			</div>
+
+			<form action="others.html" id="othersForm"></form>
+			<div class="separator-chapter"></div>
+			<div class="item left cell-button" id="others">
+				<img src="../images/others.png" style="" class="img-16"></img>
+				<a class="blue" i18n="text: Others"></a>
+			</div>
+			<div class="separator"></div>
+			<form action="shortcuts.html" id="shortcutsForm"></form>
+			<div class="item left cell-button" id="shortcuts">
+				<img src="../images/shortcut.png" style="" class="img-16"></img>
+				<a class="blue" i18n="text: shortcuts"></a>
+				<!--<span v="604" name="updatedRemind" class="red" style="font-size:10px;font-weight:bold" i18n="text: NewKey"></span>-->
+			</div>
+			<div class="separator"></div>
+			<!--<form action="pay.html" id="payForm"></form>-->
+			<div class="item left cell-button" id="pay">
+				<img src="../images/money.png" style="" class="img-16"></img>
+				<a class="blue" i18n="text: benefit"></a>
+			</div>
+			<div class="item left pay-blocks avg-cols" id="wechatPay" style="min-height: 350px;">
+				
+<!--				<div class="pay-block" i18n="showInLang: zh_CN"><img src="../images/wechat-pay-5.png" style=";margin-right:4px;"/></div>
+				<div class="pay-block">
+					<img src="../images/wechat-pay.png" style="height:150px;display:block"/>
+					<div class="pay-text" i18n="text: PayDepends"></div>
+				</div>-->
+			</div>
+		</div>
+	</body>
+</html>

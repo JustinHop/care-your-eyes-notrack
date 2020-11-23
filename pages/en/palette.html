@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="../../css/popup.css" type="text/css"/>
+		<link rel="stylesheet" href="../../css/div-menu.css" type="text/css"/>
+		<script src="../../js/jquery.js"></script>
+		<script src="../../js/libs/jscolor/jscolor.js"></script>
+		<script src="../../js/palette.js"></script>
+	</head>
+	<body style="width: 520px;height: 200px;">
+		<div style="display:inline-block;vertical-align: top;;height: 200px;width: 300px;">
+			<div class="item-no-click" style="width:300px;height:160px;">
+				<span>BG Color：</span><input class="color {styleElement:'bgColorStyle'}" style="width:55px" type="text" id="bgColor"/>
+
+				<button class="button" style="" id="bgColorSave">Save</button>
+				<button class="button" style="" id="bgColorRestore">Restore Default</button>
+			</div>
+			<div class="item-no-click">
+				<span>Font Color：</span><input class="color {styleElementAsFont:'fontColorStyle', styleElement:'fontColorStyleHidden'}" style="width:55px" type="text" id="fontColor"/>
+				<input style="width:121px;border:none;display: none" readonly="readonly" value="Font Color" id="fontColorStyleHidden"/>
+				<button class="button" style="" id="fontColorSave">Save</button>
+				<button class="button" id="fontColorRestore">Restore Default</button>
+			</div>
+		</div>
+		<div style="float:right;display:inline-block;width:200px;height: 200px;">
+			<input style="font-size: 37pt;width:520px;height:200px;border:none;z-index: -1;position: fixed;left:0px;top:0px;" readonly="readonly" id="bgColorStyle"/>
+			<div style="text-align: middle; font-size: 53pt;width:200px;height:200px;border:none;z-index: 1;
+				 position: fixed;right:0px;top:0px;background: none;" readonly="readonly" id="fontColorStyle"/>
+			Font Color
+		</div>
+	</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="../../css/popup.css" type="text/css"/>
+		<link rel="stylesheet" href="../../css/div-about.css" type="text/css"/>
+		<script src="../../js/jquery.js"></script>
+		<script src="../../js/extension/popup/about.js"></script>
+	</head>
+	<body style="">
+		<div id="menu">
+			<div>
+				<div id="onOff" class="item" style="text-align: center;font-weight: bold;" title="">
+					<span id="onOffText"></span>
+				</div>
+			</div>
+			<div class="separator"></div>
+			<div id="" class="item" title="">
+				<label>
+					<input id="bgImg" type="checkbox" value=""/>
+					<span>Background Image Override</span>
+				</label>
+			</div>
+
+			<!--<div class="separator"></div>-->
+			<div id="" class="item" title="">
+				<label>
+					<input id="blackFontColor" type="checkbox" value=""/>
+					<span>Use Custom Font Color</span>
+				</label>
+			</div>
+			<div class="separator"></div>
+			<div id="" class="item" title="When the night mode is enabled, all the other mode is invalid.">
+				<label>
+					<input id="nightMode" type="checkbox" value=""/>
+					<span>Night Mode</span>
+				</label>
+			</div>
+			<div class="separator"></div>
+			<div class="item blue" id="option" style="cursor: pointer;white-space: nowrap;font-weight:bold;"
+				 title="You can choose what elements should change color with these custom options.">
+				<img id="optionImg" src="../../images/options.png"/>&nbsp;
+				<span id="optionSpan">Background Color Options</span>
+			</div>
+			<div  id="optionList" style="display: none">
+				<div id="" class="item" title="">
+					<label>
+						<input id="body" type="checkbox" value=""/>
+						<span>Body</span>
+					</label>
+				</div>
+				<div id="" class="item" title="">
+					<label>
+						<input id="div" type="checkbox" value=""/>
+						<span>Block(&lt;div&gt;)</span>
+					</label>
+				</div>
+				<div id="" class="item" title="">
+					<label>
+						<input id="table" type="checkbox" value=""/>
+						<span>Table</span>
+					</label>
+				</div>
+				<div id="" class="item" title="">
+					<label>
+						<input id="textInput" type="checkbox" value=""/>
+						<span>Text Field</span>
+					</label>
+				</div>
+				<div id="" class="item" title="">
+					<label>
+						<input id="select" type="checkbox" value=""/>
+						<span>Dropdown List</span>
+					</label>
+				</div>
+				<div id="" class="item" title="">
+					<label>
+						<input id="ul" type="checkbox" value=""/>
+						<span>List(&lt;ul&gt;)</span>
+					</label>
+				</div>
+			</div>
+				<div id="" class="separator"></div>
+				<div title="It's the most help for reading the content in the link，thank you！">
+					<label>
+						<img style="width:20px;height:20px;padding-left:8px" src="../../images/support.png"/>&nbsp;&nbsp;
+						<a href="support.html" class="blue" target="blank">Help to spread</a>
+					</label>
+				</div>
+			<div class="separator"></div>
+			<div id="others" class="item blue bold">
+				<img src="../../images/others.png"/>&nbsp;
+				<span>Others</span>
+			</div>
+
+			<div id="othersList" style="display:none;">
+				<!--<div id="" class="separator"></div>-->
+				<div id="customColor" class="item">
+					<img src="../../images/palette.png"/>&nbsp;
+					<span>Custom Color</span>
+				</div>
+				<form action="palette.html" style="display: none" >
+					<button id="customColorHidden"></button>
+				</form>
+
+				<!--<div id="" class="separator"></div>-->
+				<div class="item-no-click" title="If you like the extension，please rate it with 5 star，and share it on google+.">
+					<img src="../../images/rate-it.png"/>&nbsp;&nbsp;
+					<a href="https://chrome.google.com/webstore/detail/care-your-eyes/fidmpnedniahpnkeomejhnepmbdamlhl/reviews"
+					   class="blue" target="blank">Rate It</a>
+				</div>
+
+				<!--<div id="" class="separator"></div>-->
+				<div id="menuAbout" class="item">
+					<img src="../../images/about16.png"/>&nbsp;
+					<span>About Care Of Eyes</span>
+				</div>
+				<!--<div id="" class="separator"></div>-->
+				<div  class="item-no-click" title="" id="updates">
+					<label>
+						<img style="" src="../../images/updates.png"/>&nbsp;&nbsp;
+						<a href="updates.html" class="blue" target="blank">Updates</a>
+					</label>
+				</div>
+				<form action="updates.html" style="display: none" >
+					<button id="updatesHidden"></button>
+				</form>
+				<!--<div id="" class="separator"></div>-->
+				<div title="If you think the extension to take good care of your eyes, maybe you can support me by donate or see the extension's Updates page. Thank you very much for your supporting!">
+					<label>
+						<form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="cursor: pointer; ">
+							<img style="padding-left: 0px" src="../../images/donate-en.png"/>
+							<input type="hidden" name="cmd" value="_xclick"/>
+							<input type="hidden" name="business" value="iamzxt999@163.com"/>
+							<input type="hidden" name="item_name" value="Care your Eyes Donate"/>
+							<input type="hidden" name="currency_code" value="USD"/>
+							<input type="hidden" name="amount" value=""/>
+							<input type="submit" style="border:none;background: none;color:blue;cursor: pointer;text-decoration:underline;"
+								   value="Support me" alt="Make payments with PayPal - it's fast, free and secure!"/>
+						</form>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="about" class="about">
+			<div id="close" class="close"><img src="../../images/close.png"></div>
+			<div class="header">
+				<table>
+					<tbody><tr>
+							<td><img src="../../images/glasses128.png" width="70" style="margin-top:-15px;"></td>
+							<td>
+								<table class="title-table">
+									<tbody><tr>
+											<td colspan="2">
+												<div class="title">Care Of Eyes</div>
+											</td>
+										</tr>
+										<tr>
+											<td width="1" class="version">Version</td>
+											<td class="version"><span class="version-number"></span></td>
+										</tr>
+									</tbody></table>
+							</td>
+						</tr>
+					</tbody></table>
+			</div>
+			<div class="about-body">
+				<div id="developer">
+					<div class="developer-name">
+						<table>
+							<tbody>
+								<tr>
+									<td>Developer</td>
+									<td>@Spraith</td>
+								</tr>
+								<tr>
+									<td>Designer</td>
+									<td>@Sango @Spraith</td>
+								</tr>
+								<tr>
+									<td>Any suggestions or bugs, please contact me via email:</td>
+									<td>iamzxt999@163.com</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div>Copyright © 2013 @Spraith. <br> All rights  reserved.</div>
+			</div>
+		</div>
+	</body></html>

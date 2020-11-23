@@ -1,0 +1,10 @@
+
+.fold {
+	background-image: url(../../images/fold.png);
+	background-repeat: no-repeat;
+}
+.unfold {
+	background-image: url(../../images/fold.png);
+	background-repeat: no-repeat;
+	-webkit-transform:rotate(90deg);
+}

@@ -1,0 +1,36 @@
+
+.vertical-list {
+	display: flex;
+	flex-flow: column;
+	margin: auto;
+}
+
+.right .item {
+	text-align: right;
+}
+
+.center .item, .vertical-list .item.center {
+	text-align: center;
+}
+
+.left .item {
+	text-align: left;
+}
+
+.item {
+    padding: 6px 10px;
+    margin: 0 2px;
+}
+
+.item.left {
+	text-align: left;
+}
+
+/*.item input {
+	margin: 1px;
+}*/
+
+.item .title {
+	font-size:25px;
+	text-align: center;
+}

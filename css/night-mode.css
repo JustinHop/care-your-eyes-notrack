@@ -1,0 +1,30 @@
+
+html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body 
+:-webkit-any(iframe, img, [style*="url"]:not(input), i, video, object,embed:not([type$="pdf"])) {-webkit-filter:invert(1);} 
+html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body i span {-webkit-filter:invert(1);} 
+
+/* 下面的 img img 这种选择器，是指那些被点击后图片会放大的图片，如微博里面小图 */
+html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body 
+:-webkit-any(iframe, img, [style*="url"]:not(input), i, video, object,embed:not([type$="pdf"])) 
+:-webkit-any(iframe, img, [style*="url"]:not(input), i, video, object,embed:not([type$="pdf"]))
+{-webkit-filter:none;}
+
+:-webkit-any(html.cye-disabled, html.cye-lm) :-webkit-any(#cyeWorkaround,
+#cye-workaround-body,#cye-workaround-body-image, #cyeBlackMaskLayer)
+{
+	display:none;
+}
+
+/*html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body[style*="repeat"] 
+{-webkit-filter:invert(1);}*/
+
+/* 没有必要再加这一层来加快速度
+html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cyeBlackMaskLayer {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	z-index: -2147483647;
+	background-color: black;
+}*/

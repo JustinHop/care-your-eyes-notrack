@@ -1,0 +1,46 @@
+
+.register-box {
+	zoom: 1.5;
+	padding-top:75px;
+	font-size: 15px;
+	display: flex;
+	flex-flow: column;
+	width: 600px;
+	margin: auto;
+}
+
+.register-row .title {
+	padding:15px 0px 15px 80px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 18pt;
+}
+
+.register-row.submit {
+	padding-left:175px;
+}
+
+.register-row {
+	padding: 5px 0px;
+	display: flex;
+	flex-flow: row;
+}
+
+.register-row .start {
+	width:160px;
+	padding-right:15px;
+	text-align: right;
+}
+
+.register-row .second {
+	width:200px;
+}
+
+.register-row .end {
+	width:240px;
+}
+
+.requiredMark {
+	color:#d63;
+	font-size: 17px;
+}

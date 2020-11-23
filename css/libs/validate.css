@@ -1,0 +1,14 @@
+input.error {
+	border: #d63 1px inset;
+}
+
+.error {
+	color:#d63;
+}
+
+label.error {
+	background: url(../../images/validate/error.png) no-repeat;
+	background-position: 0px 2px;
+	padding-left: 20px;
+}
+

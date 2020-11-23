@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+	text-align: center;
+}
+
+.flex-column {
+	max-width:600px;
+	display: flex;
+	flex-flow: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-flow:row;
+	/*flex:1*/
+}
+
+.flex-row *:nth-child(n+2) {
+	flex:1;
+}
+
+.flex-row div:first-child {
+	text-align: right;
+	width:100px;
+}
+/*.vertical-list-410 .item {
+	width:386px;
+	text-align: left;
+}*/
+
+

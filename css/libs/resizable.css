@@ -1,0 +1,32 @@
+
+.tucao-resizable {
+	position: relative;
+}
+
+.tucao-resizable-handle-e {
+	position: absolute;
+	cursor: e-resize;
+	height:100%;
+	right:0px;
+	z-index: 0;
+	border:none;
+	border-right:1px;
+}
+
+.tucao-resizable-handle-s {
+	position: absolute;
+	cursor: s-resize;
+	bottom:0px;
+	z-index: 0;
+	width:100%;
+}
+
+.tucao-resizable-handle-es {
+	position: absolute;
+	cursor: se-resize;
+	bottom:0px;
+	right:0px;
+	z-index: 1;
+	height:1px;
+	width:1px;
+}

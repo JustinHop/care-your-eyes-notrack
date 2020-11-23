@@ -1,0 +1,263 @@
+{
+   "AboutExt": {
+      "message": "关于眼睛护航"
+   },
+   "Always": {
+      "message": "一直开启"
+   },
+   "AppSwitch": {
+      "message": "应用开关"
+   },
+   "Apply": {
+      "message": "应用"
+   },
+   "Auto": {
+      "message": "自动开启"
+   },
+   "AutoSwitch": {
+      "message": "自动切换"
+   },
+   "AutoSwitchDesc": {
+      "message": "此模式会在设定的时间自动从调色模式切换到夜间模式"
+   },
+   "BGBrighter": {
+      "message": "调亮背景"
+   },
+   "BGColor": {
+      "message": "背景颜色"
+   },
+   "BGDarker": {
+      "message": "调暗背景"
+   },
+   "Back": {
+      "message": "返回上一页"
+   },
+   "BackgroundColorOptions": {
+      "message": "背景变色选项"
+   },
+   "BackgroundColorOptionsDesc": {
+      "message": "这些选项可以让您自己指定哪一些html标签可以变色，或者说，它们可以让您自定义网页中的哪些元素要被变色。"
+   },
+   "BlackListMode": {
+      "message": "网站黑名单模式"
+   },
+   "Block": {
+      "message": "区块(&lt;div&gt;)"
+   },
+   "Body": {
+      "message": "主体(&lt;body&gt;)"
+   },
+   "Brightness": {
+      "message": "亮度"
+   },
+   "ChromeStartTooSlow": {
+      "message": "Chrome启动太慢了？"
+   },
+   "ColorThemeToSave": {
+      "message": "要保存的主题"
+   },
+   "Contrast": {
+      "message": "对比度"
+   },
+   "Cover": {
+      "message": "覆盖"
+   },
+   "CurColorTheme": {
+      "message": "当前颜色主题"
+   },
+   "CustomColor": {
+      "message": "自定颜色"
+   },
+   "Default": {
+      "message": "默认值"
+   },
+   "DefaultTheme": {
+      "message": "默认主题"
+   },
+   "DescBlackListMode": {
+      "message": "此模式下，通过点击“在此网站功能禁用”被加入网站黑名单的网站将不会启用本扩展程序"
+   },
+   "DescWhiteListMode": {
+      "message": "此模式下，通过点击“在此网站功能启用”被加入网站白名单的网站才会启用本扩展程序"
+   },
+   "DisableThisSite": {
+      "message": "在此网站禁用"
+   },
+   "Disabled": {
+      "message": "停止保护"
+   },
+   "DropdownList": {
+      "message": "下拉框"
+   },
+   "EditColorTheme": {
+      "message": "编辑颜色主题"
+   },
+   "EnableOrDisableThisSite": {
+      "message": "在此网站启用/禁用"
+   },
+   "EnableShortcut": {
+      "message": "启用快捷键"
+   },
+   "EnableThisSite": {
+      "message": "在此网站启用"
+   },
+   "Enabled": {
+      "message": "保护中"
+   },
+   "FeatureDescColorTheme": {
+      "message": "    本版本新增一个绿色模式的功能：现在可以把您喜欢的背景和字体颜色保存为主题了，这样可以很方便地在不同主主题之间切换。"
+   },
+   "FontColor": {
+      "message": "字体颜色"
+   },
+   "LeagcyModeOptions": {
+      "message": "调色模式选项"
+   },
+   "LegacyMode": {
+      "message": "调色模式"
+   },
+   "LikeReward": {
+      "message": "谢谢支持！"
+   },
+   "Link": {
+      "message": "链接"
+   },
+   "List": {
+      "message": "列表(&lt;ul&gt;)"
+   },
+   "MsgAppearOnlyOnce": {
+      "message": "    本消息只会出现一次，不会再次打扰到您，谢谢！ "
+   },
+   "New": {
+      "message": "有更新！"
+   },
+   "NewFeature": {
+      "message": "眼睛护航增加新功能啦!^_^"
+   },
+   "NewKey": {
+      "message": "新增快捷键!"
+   },
+   "NightMode": {
+      "message": "夜间模式"
+   },
+   "NightModeOptions": {
+      "message": "夜间模式选项"
+   },
+   "NightModeStartTime": {
+      "message": "夜间模式开启时间"
+   },
+   "NightModeStartTimeDesc": {
+      "message": "在自动切换模式或夜间模式自动开启模式下，模式切换或夜间模式开启的时间在此设定"
+   },
+   "OneTimePromotion": {
+      "message": "一次性推广"
+   },
+   "OptionsPageWidth": {
+      "message": "380px"
+   },
+   "Others": {
+      "message": "其他"
+   },
+   "OthersPageWidth": {
+      "message": "313px"
+   },
+   "OverrideBgImg": {
+      "message": "背景图案覆盖"
+   },
+   "PaletteBGColorHeight": {
+      "message": "160px"
+   },
+   "PaletteBodyHeight": {
+      "message": "230px"
+   },
+   "PayDepends": {
+      "message": "随意打赏"
+   },
+   "Rate": {
+      "message": "评分"
+   },
+   "RestoreDefault": {
+      "message": "恢复默认"
+   },
+   "RewardMe": {
+      "message": "这是您给我的“眼睛护航”，我很喜欢它，谢谢！"
+   },
+   "Save": {
+      "message": "保存"
+   },
+   "SaveAllPagesPromotion": {
+      "message": "    亲爱的用户，很抱歉打扰到您。我最近开发了一款新的扩展程序：保存所有网页。名字不咋地，但是也许是你期待已久的功能，强烈推荐您去试用一下。谢谢！"
+   },
+   "SaveAsTheme": {
+      "message": "保存为主题"
+   },
+   "Shortcuts": {
+      "message": "快捷键"
+   },
+   "SupportMe": {
+      "message": "如果您觉得本扩展保护了您的眼睛，你可以通过捐款支持我的工作，除了paypal,您也可以直接转账到我的支付宝账号：iamzxt999@qq.com, 谢谢！"
+   },
+   "SureToCoverTheTheme": {
+      "message": "确定要覆盖此主题？"
+   },
+   "Table": {
+      "message": "表格"
+   },
+   "TabsSavedExtensionDesc": {
+      "message": "这是我开发的另一款扩展：能让你在记住最后关闭页面的情况下更快速地启动Chrome。欢迎大家试用，谢谢！"
+   },
+   "TextField": {
+      "message": "文本输入框"
+   },
+   "Theme": {
+      "message": "主题"
+   },
+   "ThemeName": {
+      "message": "主题名称"
+   },
+   "TucaoExtensionDesc": {
+      "message": "这是我开发的另一款扩展：可在任何网页上进行弹幕式评论，欢迎大家试用，谢谢！"
+   },
+   "Updates": {
+      "message": "更新内容"
+   },
+   "UseCustomFontColor": {
+      "message": "使用自定义字体颜色"
+   },
+   "WhiteListMode": {
+      "message": "网站白名单模式"
+   },
+   "benefit": {
+      "message": "福利！"
+   },
+   "clickToChangeColor": {
+      "message": "点击变色"
+   },
+   "disableExtension": {
+      "message": "禁用扩展"
+   },
+   "extDescription": {
+      "message": "把网页背景变成眼睛保护色或适合夜晚阅读的夜间模式，一些无法变色的小区块可以通过单击进行变色"
+   },
+   "extLang": {
+      "message": "zh_CN"
+   },
+   "extName": {
+      "message": "眼睛护航"
+   },
+   "pay": {
+      "message": "支持我的开发"
+   },
+   "payForMyWork": {
+      "message": "如果您也认可软件开发是一项有价值的劳动，您可以通过微信扫码付款来支持我的开发工作 或者 支付宝账号：iamzxt999@qq.com, 谢谢！"
+   },
+   "qrcode_bottom": {
+      "message": "先领券再下单"
+   },
+   "qrcode_top": {
+      "message": "微信扫码领券"
+   },
+   "yiqilaitucao": {
+      "message": "一起来吐槽"
+   }
+}

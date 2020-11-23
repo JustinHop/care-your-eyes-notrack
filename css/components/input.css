@@ -1,0 +1,30 @@
+
+.placeholder-wrapper {
+	/** 这个 position 定为 relative 纯粹只是为了给 .placeholder 寻找父级 position 定位*/
+	position: relative;
+	text-align: left;
+}
+
+.placeholder-input {
+	/*height: 20px;*/
+	padding-left:4px;
+	margin-right:4px;
+	width: 185px;
+	border: 1px inset;
+}
+
+.placeholder-show .placeholder {
+	visibility: visible;
+}
+
+.placeholder {
+	top:4px;
+	left:5px;
+	color:#c9c9c9;
+	color:#c0c0c0;
+	font-size:12px;
+	position: absolute;
+	visibility:hidden;
+	cursor: text;
+}
+

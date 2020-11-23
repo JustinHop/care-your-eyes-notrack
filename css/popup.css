@@ -1,0 +1,116 @@
+/* 
+    Document   : popup-new
+    Created on : 2014-1-6, 3:24:13
+    Author     : zxt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    margin: 0;
+    color: #345;
+    font: menu;
+    font-size: 9pt;
+    -webkit-user-select: none;
+	/*background-color: #fafbff;*/
+}
+
+body, td, th, input, select, textarea, button {
+    font: menu;
+    font-size: 9pt;
+}
+
+input, select, textarea, button, a, img {
+	vertical-align: middle;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.blue {
+    color: #47b;
+}
+
+.grey {
+    color: grey;
+}
+
+.green {
+    color: #5b5;
+}
+
+.red {
+    color: #d63;
+}
+
+.yellow {
+    color: #ca0;
+}
+
+.purple {
+    color: #a407be;
+}
+
+.list-tbl {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #d1dadd;
+    border-spacing: 8px;
+    empty-cells: show;
+    padding: 6px;
+    /*background-color: #f4f8fa;*/
+}
+
+.list-tbl tr td label {
+    padding: 0 0 0 10px;
+}
+
+.list-tbl td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.list-tbl td:nth-child(2) {
+    width: 80%;
+    white-space: normal;
+}
+
+.list-tbl td:nth-child(4) {
+    width: 20%;
+    white-space: normal;
+}
+
+.list-tbl input[type="text"] {
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.list-tbl input{
+    margin: 0;
+    vertical-align: text-bottom;
+}
+
+.list-tbl input[disabled] {
+    background-color: #eee;
+    border: solid 1px #ccc;
+    padding: 2px 1px;
+}
+
+.disabled, .tab .disabled, .tab .disabled * {
+    color: #aaa;
+}
+
+.indent td:first-child, .tab .indent td:first-child {
+    -webkit-padding-start: 5px !important;
+}
+
+.section td {
+    padding: 10px 0 3px 0;
+}
+
+.section label, .tab .section label {
+    padding: 10px 0;
+}
+

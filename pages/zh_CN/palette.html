@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="../../css/popup.css" type="text/css"/>
+		<link rel="stylesheet" href="../../css/div-menu.css" type="text/css"/>
+		<script src="../../js/jquery.js"></script>
+		<script src="../../js/libs/jscolor/jscolor.js"></script>
+		<script src="../../js/palette.js"></script>
+	</head>
+	<body style="width: 505px;height: 200px;">
+		<div style="display:inline-block;vertical-align: top;;height: 200px;width: 300px;">
+			<div class="item-no-click" style="width:300px;height:160px;">
+				<span>背景颜色：</span><input class="color {styleElement:'bgColorStyle'}" style="width:55px" type="text" id="bgColor"/>
+				
+				<button class="button" style="" id="bgColorSave">保存</button>
+				<button class="button" style="" id="bgColorRestore">恢复默认</button>
+			</div>
+			<div class="item-no-click">
+				<span>字体颜色：</span><input class="color {styleElementAsFont:'fontColorStyle', styleElement:'fontColorStyleHidden'}" style="width:55px" type="text" id="fontColor"/>
+				<input style="width:121px;border:none;display: none" readonly="readonly" value="字体颜色" id="fontColorStyleHidden"/>
+				<button class="button" style="" id="fontColorSave">保存</button>
+				<button class="button" id="fontColorRestore">恢复默认</button>
+			</div>
+		</div>
+		<div style="float:right;display:inline-block;width:200px;height: 200px;">
+			<input style="font-size: 37pt;width:505px;height:200px;border:none;z-index: -1;position: fixed;left:0px;top:0px;" readonly="readonly" id="bgColorStyle"/>
+			<input style="font-size: 37pt;width:200px;height:200px;border:none;z-index: 1;
+				   position: fixed;right:0px;top:0px;background: none;" value="字体颜色"  readonly="readonly" id="fontColorStyle"/>
+		</div>
+	</body>
+</html>

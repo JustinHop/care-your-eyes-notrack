@@ -1,0 +1,364 @@
+#yiqilaitucao input[type="checkbox"] {
+	-webkit-appearance:checkbox;
+}
+
+#yiqilaitucao div.tucao, .tucao div {
+	line-height: normal;
+}
+
+#yiqilaitucao div.tucao, .tucao * {
+	-webkit-box-sizing: initial;
+	box-sizing:  initial;
+	line-height: initial;
+	/*display: initial;*/
+}
+
+#yiqilaitucao.tucao {
+	/*z-index: 3000000;*/
+	/*	width:720px;
+		height:44px;*/
+	/*	font-family: "Microsoft Yahei", Arial !important;
+			 'Helvetica Neue',Arial,serif, monospace,Helvetica,Sans-serif  !important;
+		position: fixed;
+		top:0px;
+		right:0px;
+		-704px;
+		text-align: left !important;
+		color:#345;
+		z-index: 3000000;*/
+}
+
+#yiqilaitucao .tucao-bar span, .tucao-bar img, .tucao-bar input {
+	vertical-align: middle;
+}
+
+
+/**  好看的颜色 #2187e7  背景 #161616*/
+#yiqilaitucao .tucao-bar {
+	font-family: __MSG_tucaoBarFontFamily__, Arial !important;
+	/* 'Helvetica Neue',Arial,serif, monospace,Helvetica,Sans-serif  !important;*/
+	/*font-family: menu;*/
+	font-style: normal !important;
+	position: fixed;
+	top:0px;
+	right:0px;
+	/*-704px;*/
+	text-align: left !important;
+	color:#345;
+	width:__MSG_tucaoBarWidth__;
+	height: 44px;
+	/*padding: 7px;*/
+	/*background-color: #f4f8fa;*/
+	background-color: rgba(244, 248, 250, 0.9);
+	text-align: left;
+	border-radius: 5px;
+	z-index: 3000000;
+}
+
+/*.tucao-bar .tucao-position-adjuster {
+	display: inline-block;
+	width:16px;
+	height:100%;
+	float:left;
+}
+
+#yiqilaitucao .tucao-bar .tucao-move {
+	display:inline-block;
+	background-color: #f4f8fa;
+	width:16px;
+	height:30%;
+	cursor:move;
+}*/
+
+#yiqilaitucao .tucao-bar .tucao-visibility {
+	display: inline-block;
+	width:16px;
+	height:100%;
+	float:left;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: #f4f8fa;
+	cursor: pointer;
+	/*background-color: red;*/
+}
+
+#yiqilaitucao .tucao-bar .tucao-visibility:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.4, hsl(215, 67%, 97%)), color-stop(0.41, hsl(213, 48%, 95%)));
+}
+
+#yiqilaitucao .tucao-bar .tucao-visibility:active {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e8eef4), color-stop(1, #f5f9f4));
+}
+
+#yiqilaitucao .tucao-bar .tucao-bar-hide-icon {
+	-webkit-transform: rotate(180deg);
+	height:20px;
+	width:16px;
+	margin:12px 0px;
+}
+
+#yiqilaitucao .tucao-bar .tucao-bar-visible-icon {
+	height:20px;
+	width:16px;
+	margin:12px 0px;
+}
+
+#yiqilaitucao .tucao-bar .tucao-item:nth-child(n) {
+	vertical-align: middle;
+}
+
+#yiqilaitucao .tucao-bar .tucao-item {
+	display: inline-block;
+	float:left;
+	background-color: #f4f8fa;
+	/*display: inline-block;*/
+	padding:0px  !important;
+	margin: 7px 4px  !important;
+	height: 30px  !important;
+    border-radius: 5px;
+}
+/*.tucao-item:first-child {
+	margin-left: 0px !important;
+}
+#yiqilaitucao .tucao-item:last-child {
+	margin-right: 0px !important;
+}*/
+
+#yiqilaitucao .tucao-input-box {
+	font-size:14px !important;
+	border-radius: 3px;
+	width: 185px;
+	height: 26px !important;
+	border: 1px inset;
+	cursor: auto;
+	padding:0px 0px 0px 5px !important;
+	margin-top:1px !important;
+	margin-bottom: 1px !important;
+}
+#yiqilaitucao .tucao-placeholder-wrapper {
+	/** 这个 position 定为 relative 纯粹只是为了给 .tucao-placeholder 寻找父级 position 定位*/
+	position: relative;
+	text-align: left;
+}
+
+#yiqilaitucao .tucao-placeholder-show .tucao-placeholder {
+	visibility: visible;
+}
+
+#yiqilaitucao .tucao-placeholder {
+	height:24px;
+	top:5px;
+	color:#c9c9c9;
+	font-size:15px;
+	position: absolute;
+	padding-left:6px;
+	visibility:hidden;
+	cursor: text;
+}
+
+#yiqilaitucao .tucao-button {
+	float:left;
+	font-size:16px;
+	cursor: pointer;
+	height:24px;
+    padding: __MSG_tucaoButtonPadding__;
+	/*margin-top: 2px;*/
+    cursor: pointer;
+    border-radius: 5px;
+	color:#567;
+    border: solid 1px #cde;
+	-webkit-user-select: none;
+}
+
+/** hover 和 active 上 padding top 和 bottom 各减1px，这样添加的1px宽度的border就不会把 item 撑变形了 */
+#yiqilaitucao .tucao-button:hover {
+    /*padding: 2px 9px;*/
+    /*cursor: pointer;*/
+    border: solid 1px #bcd;
+    /*border-radius: 3px;*/
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.4, hsl(215, 67%, 97%)), color-stop(0.41, hsl(213, 48%, 95%)));
+}
+
+#yiqilaitucao .tucao-button:active {
+    /*padding: 2px 9px;*/
+    border: solid 1px #abc;
+    /*border-radius: 3px;*/
+    background: #dde7f2 none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e8eef4), color-stop(1, #f5f9f4));
+}
+
+/** 吐槽翻页按钮，固定宽度 */
+#yiqilaitucao .tucao-page-button {
+	width:13px;
+}
+
+#yiqilaitucao .tucao-pause {
+	/*vertical-align: baseline !important;*/
+	/*margin:2px 0px 2px 2px;*/
+	font-size:14px !important;
+}
+
+#yiqilaitucao .tucao-statistics {
+	-webkit-user-select: none;
+	cursor: default;
+	display: inline-block;
+	float:left;
+	/*background-color: rgba(244, 248, 250, 0.9);*/
+	padding-top:11px;
+	/*padding:0px  !important;*/
+	margin: 7px 4px  !important;
+	height: 30px  !important;
+	width:205px;
+	font-size:12px;
+
+	/*margin:11px 4px 0px 4px !important;*/
+}
+
+#yiqilaitucao .tucao-preview-wrapper {
+	position: fixed;
+	cursor: move;
+	z-index: 2000000;
+	/*background-color: #fefebc;*/
+	/*border:1px solid #7c7d7e;*/
+	/*opacity: 0.8;*/
+/*	top:200px;
+	left:200px;*/
+	/*width:auto;*/
+	/*height:200px;*/
+	text-align: left;
+	/*font-size:13px;*/
+	/*word-wrap: normal;*/  
+	/*word-break: break-all;*/
+}
+
+.tucao-wrapper {
+	position:absolute;
+}
+
+.tucao-content-wrapper {
+	-webkit-box-sizing: initial;
+	box-sizing:  initial;
+	line-height: initial;
+	font-size:13px;
+	min-width:15px;
+	max-width:400px;
+	min-height:18px;
+}
+
+.tucao-content {
+	width:100%;
+	/*	min-width:35px;
+		min-height:20px;*/
+	height:100%;
+	padding:4px 2px;
+	text-align: left;
+	/*word-wrap: normal;*/  
+	word-break: break-all;
+}
+
+#yiqilaitucao .separator {
+    height: 0;
+    margin: 1px 2px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+#yiqilaitucao .tucao-color-option-block {
+	position: absolute;
+	background-color: rgba(244, 248, 250, 0.95);
+/*    border: 0;
+	border-top:1px inset #ddd;*/
+	visibility: hidden;
+	font-size:13px;
+}
+#yiqilaitucao .tucao-color-option-item {
+	height:22px;
+	padding:6px;
+}
+#yiqilaitucao .tucao-color-option-title {
+	float: left;
+	padding:1px 6px;
+	font-size:13px;
+}
+#yiqilaitucao .tucao-color-square {
+	width:18px;
+	height:18px;
+	padding:1px;
+	float:left;
+	margin: 0 6px;
+	cursor: pointer;
+	border: 1px solid rgba(240,240,240,1);
+}
+/*#f2ff2d*/
+#yiqilaitucao .tucao-color-square:hover, #yiqilaitucao .tucao-color-square-selected {
+	padding:0;
+	border:2px solid #f2ff2d;
+}
+
+#yiqilaitucao .tucao-white {
+	background-color: #fff;
+}
+#yiqilaitucao .tucao-black {
+	background-color: #000;
+}
+#yiqilaitucao .tucao-yellow-light {
+	background-color: #fefebc;
+}
+#yiqilaitucao .tucao-yellow-dark {
+	background-color: #e29716;
+}
+#yiqilaitucao .tucao-alpha {
+	/*background-color: rgba(0,0,0,0);*/
+	background: none;
+}
+#yiqilaitucao .tucao-red {
+	background-color: #e60000;
+}
+#yiqilaitucao .tucao-green {
+	background-color: #3f7e16;
+}
+#yiqilaitucao .tucao-blue-dark {
+	background-color: #155a8a;
+}
+#yiqilaitucao .tucao-pink {
+	background-color: #ddb6be;
+}
+#yiqilaitucao .tucao-blue-light {
+	background-color: #becbe2
+}
+
+#yiqilaitucao .tucao-bar .tucao-option-preview {
+	-webkit-user-select: none;
+	display:inline-block;
+	float:left;
+	background-color: #f4f8fa;
+	border: solid 1px #bcd;
+}
+
+#yiqilaitucao .tucao-option-preview-div {
+	height:39px;width:__MSG_optionPreviewWidth__;line-height: 12px;vertical-align: middle;
+}
+
+#yiqilaitucao .tucao-option-preview-checkbox {
+	height:13px;width:13px;border:initial;
+}
+
+#yiqilaitucao .tucao-option-preview-label {
+	height:24px;
+	width:__MSG_optionPreviewWidth__;line-height: 12px;font-size:12px;
+	font-family: __MSG_tucaoBarFontFamily__, Arial !important;
+	font-weight: initial;
+	display: initial;
+}
+
+/*#yiqilaitucao .tucao-option-preview label {
+}*/
+
+#yiqilaitucao .tucao-bar .tucao-option-preview:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(0.4, hsl(215, 67%, 97%)), color-stop(0.41, hsl(213, 48%, 95%)));
+}
+#yiqilaitucao .tucao-bar .tucao-option-preview :nth-child(n) {
+	margin:0;
+	padding:0;
+}
+

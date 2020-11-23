@@ -1,0 +1,7 @@
+.avg-cols {
+	display: flex;
+}
+.avg-cols :nth-child(n) {
+	flex:1;
+}
+

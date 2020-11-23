@@ -1,0 +1,112 @@
+
+
+.about {
+    font-size: 10pt;
+    padding: 10px;
+	height: 100%;
+}
+
+.about * {
+    color: #578;
+    cursor: default;
+}
+
+.about a {
+    cursor: pointer;
+}
+
+.header {
+    text-shadow: #ccc 1px 1px 3px;
+}
+
+.header td {
+    padding: 0 10px;
+    -webkit-padding-start: 0;
+}
+
+.header img {
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 24pt;
+    margin-top: 0px;
+    direction: ltr;
+}
+
+.title-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.title-table td {
+    padding: 0;
+}
+
+.version {
+    font-size: 11pt;
+    padding: 0;
+    text-shadow: #ddd 1px 1px 2px;
+    -webkit-padding-start: 3px !important;
+    -webkit-user-select: text;
+}
+
+.version-number {
+    font-weight: bold;
+    -webkit-padding-start: 5px;
+}
+
+.about-body {
+    padding: 10px 8px;
+    white-space: nowrap;
+    -webkit-user-select: text;
+}
+
+.about-body * {
+    color: #679;
+}
+
+.about-body span {
+    white-space: nowrap;
+}
+
+.footer {
+    height: 15px;
+    color: #789;
+    margin: 5px;
+    padding-top: 3px;
+    border-top: solid 1px #eef;
+    white-space: nowrap;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close img {
+    cursor: pointer;
+}
+
+.important {
+    direction: ltr;
+    color: #080;
+    padding: 5px 5px 5px 28px;
+    margin: 2px 0;
+    font-weight: bold;
+    font-size: 115%;
+    white-space: nowrap;
+    text-align: left;
+    border: solid 1px #acb;
+    border-radius: 2px;
+}
+
+.developer-name {
+    padding: 5px 0;
+}
+
+.developer-name * {
+    font-size: 10pt;
+}
+

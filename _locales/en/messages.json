@@ -1,0 +1,257 @@
+{
+   "AboutExt": {
+      "message": "About"
+   },
+   "Always": {
+      "message": "Always"
+   },
+   "AppSwitch": {
+      "message": "Enable(Disable) App"
+   },
+   "Apply": {
+      "message": "Apply"
+   },
+   "Auto": {
+      "message": "Auto"
+   },
+   "AutoSwitch": {
+      "message": "Auto Switch"
+   },
+   "AutoSwitchDesc": {
+      "message": ""
+   },
+   "BGBrighter": {
+      "message": "Brighter BG"
+   },
+   "BGColor": {
+      "message": "BG Color"
+   },
+   "BGDarker": {
+      "message": "Darker BG"
+   },
+   "Back": {
+      "message": "Back"
+   },
+   "BackgroundColorOptions": {
+      "message": "Background Color Preference"
+   },
+   "BackgroundColorOptionsDesc": {
+      "message": "You can choose what elements should change color with these Preference."
+   },
+   "BlacklistMode": {
+      "message": "Blacklist Mode"
+   },
+   "Block": {
+      "message": "Block(&lt;div&gt;)"
+   },
+   "Body": {
+      "message": "Body"
+   },
+   "Brightness": {
+      "message": "Brightness"
+   },
+   "ChromeStartTooSlow": {
+      "message": "Chrome start too slow?"
+   },
+   "ColorThemeToSave": {
+      "message": "Theme To Save"
+   },
+   "Contrast": {
+      "message": "Contrast"
+   },
+   "Cover": {
+      "message": "Cover"
+   },
+   "CurColorTheme": {
+      "message": "Current Color Theme"
+   },
+   "CustomColor": {
+      "message": "Custom Color"
+   },
+   "Default": {
+      "message": "Default"
+   },
+   "DefaultTheme": {
+      "message": "Default Theme"
+   },
+   "DescBlacklistMode": {
+      "message": "With this mode, the sites add to blacklist of site will not enable the extension."
+   },
+   "DescWhitelistMode": {
+      "message": "With this mode, only the sites add to whitelist of site will enable the extension."
+   },
+   "DisableThisSite": {
+      "message": "Disable at this site"
+   },
+   "Disabled": {
+      "message": "Disabled"
+   },
+   "DropdownList": {
+      "message": "Dropdown List"
+   },
+   "EditColorTheme": {
+      "message": "Edit Color Theme"
+   },
+   "EnableOrDisableThisSite": {
+      "message": "Enable/Disable at this site"
+   },
+   "EnableShortcut": {
+      "message": "Enable Shortcut"
+   },
+   "EnableThisSite": {
+      "message": "Enable at this site"
+   },
+   "Enabled": {
+      "message": "Enabled"
+   },
+   "FeatureDescColorTheme": {
+      "message": "There is a new feature of Reseda Mode: You can save bg/font color to a theme, and there are 6 themes you can save."
+   },
+   "FontColor": {
+      "message": "Font Color"
+   },
+   "LeagcyModeOptions": {
+      "message": "Reseda Mode Preference"
+   },
+   "LegacyMode": {
+      "message": "Reseda Mode"
+   },
+   "LikeReward": {
+      "message": "Consider donating!!"
+   },
+   "Link": {
+      "message": "Link"
+   },
+   "List": {
+      "message": "List(&lt;ul&gt;)"
+   },
+   "MsgAppearOnlyOnce": {
+      "message": "This message appear only once, it will not disturb you again, thank you! "
+   },
+   "New": {
+      "message": "New!"
+   },
+   "NewFeature": {
+      "message": "New Feature"
+   },
+   "NewKey": {
+      "message": "New Key!"
+   },
+   "NightMode": {
+      "message": "Night Mode"
+   },
+   "NightModeOptions": {
+      "message": "Night Mode Preference"
+   },
+   "NightModeStartTime": {
+      "message": "Start Time Of Night Mode"
+   },
+   "NightModeStartTimeDesc": {
+      "message": ""
+   },
+   "OneTimePromotion": {
+      "message": "A one-time promotion"
+   },
+   "OptionsPageWidth": {
+      "message": "380px"
+   },
+   "Others": {
+      "message": "Others"
+   },
+   "OthersPageWidth": {
+      "message": "382px"
+   },
+   "OverrideBgImg": {
+      "message": "Cover BG Image"
+   },
+   "PaletteBGColorHeight": {
+      "message": "138px"
+   },
+   "PaletteBodyHeight": {
+      "message": "190px"
+   },
+   "PayDepends": {
+      "message": "Depends"
+   },
+   "Rate": {
+      "message": "Rate It"
+   },
+   "RestoreDefault": {
+      "message": "Restore Default"
+   },
+   "RewardMe": {
+      "message": "Thanks for the reward! I like it!"
+   },
+   "Save": {
+      "message": "Save"
+   },
+   "SaveAllPagesPromotion": {
+      "message": "Excuse me please , my dear freinds, \nI have developed a new chrome extension：\"Save All Pages\". \nI recommend you strongly to have a try.\nThank you! "
+   },
+   "SaveAsTheme": {
+      "message": "Save as theme"
+   },
+   "Shortcuts": {
+      "message": "Shortcuts"
+   },
+   "SupportMe": {
+      "message": "If you think the extension to take good care of your eyes, maybe you can support me by donate. Thank you very much for your supporting!"
+   },
+   "SureToCoverTheTheme": {
+      "message": "Cover the theme， Sure？"
+   },
+   "Table": {
+      "message": "Table"
+   },
+   "TabsSavedExtensionDesc": {
+      "message": "It's another extension I develop, the chrome will start more quickly when tabs preserved, please have a try, thank you!"
+   },
+   "TextField": {
+      "message": "Text Field"
+   },
+   "Theme": {
+      "message": "Theme"
+   },
+   "ThemeName": {
+      "message": "Theme Name"
+   },
+   "TucaoExtensionDesc": {
+      "message": "It's another extension I develop, you can comment at any web page with text doodle way, please have a try, thank you!"
+   },
+   "Updates": {
+      "message": "Updates"
+   },
+   "UseCustomFontColor": {
+      "message": "Use Custom Font Color"
+   },
+   "WhitelistMode": {
+      "message": "Whitelist Mode"
+   },
+   "benefit": {
+      "message": "Consider donating!!"
+   },
+   "clickToChangeColor": {
+      "message": "Click to change color"
+   },
+   "disableExtension": {
+      "message": "Disable extension"
+   },
+   "extDescription": {
+      "message": "Change the page's background color to the reseda or night mode and you can click a block to make it changing color."
+   },
+   "extLang": {
+      "message": "en"
+   },
+   "extName": {
+      "message": "Care your Eyes"
+   },
+   "pay": {
+      "message": "Support my work"
+   },
+   "payForMyWork": {
+      "message": "If you like the extension and want to support me, you can buy it through Wechat payment QR code with any amount of money. Thank you!"
+   },
+   "yiqilaitucao": {
+      "message": "Let's doodle now"
+   }
+}

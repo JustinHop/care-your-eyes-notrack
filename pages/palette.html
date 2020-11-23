@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link rel="stylesheet" href="../css/base.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/layouts/vertical-list.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/components/button.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/components/line.css" type="text/css"/>
+		<script src="../js/libs/jquery.js"></script>
+		<script src="../js/libs/jscolor/jscolor.js"></script>
+		<script src="../js/libs/Cacher.js"></script>
+		<script src="../js/libs/jquery/i18n.js"></script>
+		<script src="../js/extension/popup/palette.js"></script>
+	</head>
+	<body style="width: 505px;height: {PaletteBodyHeight};background-color: #FeFfFf" i18n="style: PaletteBodyHeight">
+		<div style="display:inline-block;vertical-align: top;;height: {PaletteBodyHeight};width: 303px;" i18n="style: PaletteBodyHeight">
+			<div class="item" style="width:300px;height: {PaletteBGColorHeight};"  i18n="style: PaletteBGColorHeight">
+				<span i18n="text: BGColor"></span><span>: </span><input class="color {styleElement:'bgStyle'}" style="width:55px" type="text" id="bg"/>
+
+				<button class="button" style="" id="bgApply" i18n="text: Apply"></button>
+				<button class="button" style="" id="bgRestore" i18n="text: RestoreDefault"></button>
+			</div>
+			<div class="item">
+				<span i18n="text: FontColor"></span><span>: </span><input class="color {styleElementAsFont:'fontStyle', styleElement:'fontStyleHidden'}" style="width:55px" type="text" id="font"/>
+				<input style="width:121px;border:none;display: none" readonly="readonly" value="" id="fontStyleHidden"/>
+				<button class="button" style="" id="fontApply" i18n="text: Apply"></button>
+				<button class="button" id="fontRestore" i18n="text: RestoreDefault"></button>
+			</div>
+		</div>
+		<div class="separator"></div>
+		<form action="color-theme.html" method="get" id="saveAsThemeForm"></form>
+		<div style="text-align: center;"><button class="button" style="" id="saveAsTheme" i18n="text: SaveAsTheme"></button></div>
+		
+		<div i18n="showInLang: zh_CN" style="float:right;display:inline-block;width:200px;height: {PaletteBodyHeight};" i18n="style: PaletteBodyHeight">
+			<input style="font-size: 37pt;width:505px;height: {PaletteBodyHeight};border:none;z-index: -1;position: fixed;left:0px;top:0px;" readonly="readonly" id="bgStyle" i18n="style: PaletteBodyHeight"/>
+			<input style="font-size: 37pt;width:200px;height: {PaletteBodyHeight};border:none;z-index: 1;
+				   position: fixed;right:0px;top:0px;background: none;" value="字体颜色" readonly="readonly" id="fontStyle" i18n="style: PaletteBodyHeight"/>
+		</div>
+		<div i18n="showInLang: en" style="float:right;display:inline-block;width:200px;height: {PaletteBodyHeight};"  i18n="style: PaletteBodyHeight">
+			<input style="font-size: 37pt;width:520px;height: {PaletteBodyHeight};border:none;z-index: -1;position: fixed;left:0px;top:0px;" readonly="readonly" id="bgStyle"  i18n="style: PaletteBodyHeight"/>
+			<div style="text-align: middle; font-size: 53pt;width:200px;height: {PaletteBodyHeight};border:none;z-index: 1;
+				 position: fixed;right:0px;top:0px;background: none;" readonly="readonly" id="fontStyle"  i18n="style: PaletteBodyHeight"/>
+			Font Color
+		</div>
+	</body>
+</html>
